@@ -1,0 +1,47 @@
+#title {
+	font-size: 30px;
+	color: white;
+}
+
+
+
+#mainNav {
+	background-color: blue;
+}
+
+
+
+
+#first {
+	background-color: white;
+	margin-top: 75px;
+	height: 390px;
+	color: black;
+}
+
+#second {
+	background-color: #B3E0E1;
+	
+	height: 350px;
+	color: white;
+}
+
+.navbar-brand {
+	font-size: 25px !important;
+	color: white !important;
+
+}
+
+.navbar-default {
+	background-color: #18191D !important;
+	
+}
+
+.img-responsive {
+	margin: 0 auto;
+}
+
+
+
+
+
