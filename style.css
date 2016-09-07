@@ -1,8 +1,6 @@
-#title {
-	font-size: 30px;
-	color: pink;
-	
-}
+
+
+
 
 
 
@@ -31,10 +29,10 @@
 }
 
 .navbar-brand {
-	font-size: 30px !important;
+	font-size: 30px ;
 	color: white !important;
 	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
-	margin-top: 8px;
+	margin-top: 0px;
 
 }
 
@@ -66,8 +64,30 @@ img {
 	height: 30px
 }
 
-button {
-	margin-top: 50px !important;
+#rarri {
+	margin-top: 45px !important;
 	height: 200px;
 	width: 200px;
+	background-color: #535353 !important;
+	border-color: white !important;
+	border-style: groove !important;
+	border-width: 5px !important;
 }
+
+#footer {
+	background-color: #18191D;
+	height: 50px;
+	
+}
+
+#hallo {
+	color:white;
+	font-size: 20px;
+
+}
+
+#pra {
+	margin-top: 10px;
+}
+
+
