@@ -20,6 +20,8 @@
 	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
 }
 
+
+
 #second {
 	background-color: #01ACE2;
 	
@@ -29,7 +31,7 @@
 }
 
 .navbar-brand {
-	font-size: 30px ;
+	font-size: 20px !important ;
 	color: white !important;
 	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
 	margin-top: 0px;
@@ -55,7 +57,7 @@
 	font-style: italic;
 }
 
-img {
+#harry {
 	height: 250px;
 	width: 250px;
 }
@@ -83,6 +85,7 @@ img {
 #hallo {
 	color:white;
 	font-size: 20px;
+	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
 
 }
 
