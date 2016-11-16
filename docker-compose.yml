@@ -1,0 +1,22 @@
+version: '2'
+services:
+  static-nginx:
+    image: kyma/docker-nginx
+    #env_file: .cloudconstruction.io.env
+    volumes:
+      - ./src/:/var/www
+    expose:
+      - 80
+      - 443
+    restart: always
+    networks:
+      - nginx-proxy 
+    environment:
+      - VIRTUAL_HOST=cloudconstruction.io, www.cloudconstruction.io
+      - HTTPS_METHOD=noredirect
+      - COMPOSE_PROJECT_NAME=cloudconstruction.io
+    command: nginx
+    
+networks:
+  nginx-proxy:
+    external: true
