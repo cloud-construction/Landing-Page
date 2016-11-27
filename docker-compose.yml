@@ -13,8 +13,11 @@ services:
       - nginx-proxy 
     environment:
       - VIRTUAL_HOST=cloudconstruction.io, www.cloudconstruction.io
-      - HTTPS_METHOD=noredirect
+      - VIRTUAL_PORT=80
       - COMPOSE_PROJECT_NAME=cloudconstruction.io
+      - LETSENCRYPT_HOST=cloudconstruction.io, www.cloudconstruction.io
+      - LETSENCRYPT_EMAIL=nathanpguenther@gmail.com
+      #- HTTPS_METHOD=nohttp
     command: nginx
     
 networks:
